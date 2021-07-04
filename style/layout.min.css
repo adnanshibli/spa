@@ -1,0 +1,135 @@
+*{font-family:'Fira Sans Condensed',sans-serif}
+body{overflow-x:hidden}
+hr{background-color:#fff}
+.copyright{background-color:#e8b8b8;padding-top:20px;padding-bottom:20px;margin-top:-33px}
+.header .content{margin-top:10px}
+.header .content .num{margin-top:8px}
+.header .content .btn{background-color:#e8b8b8}
+.header .content p{display:inline-block}
+.header .content div{display:inline-block}
+.header .content ul li{width:30px;height:30px;text-align:center;border-radius:50%}
+.header .content ul li i{display:block;color:#fff;cursor:pointer;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out;-webkit-transition:all .35s ease-in-out;-moz-transition:all .35s ease-in-out;-ms-transition:all .35s ease-in-out;-o-transition:all .35s ease-in-out}
+.header .content ul li .first{position:relative;height:30px;top:7px}
+.header .content ul li .first:hover{height:8px;top:-17px}
+.header .content ul li .first .second:hover .first{height:8px;top:-17px}
+.header .content .facebook{background-color:#3b5998}
+.header .content .twitter{background-color:#00acee}
+.header .content .google{background-color:#dd4b39}
+nav .active{color:#e8b8b8!important}
+nav .dropdown-menu{background-color:#222}
+nav .dropdown-menu a{color:rgba(255,255,255,.6)}
+nav .dropdown-menu a:hover{color:#fff;background-color:rgba(255,255,255,.6)}
+.slider .carousel{height:500px}
+.slider .carousel .carousel-inner{height:500px}
+.slider .carousel .carousel-inner .pic{background:url(../imgs/img1.jpg) no-repeat center center;background-size:cover;width:100%}
+.slider .carousel .carousel-inner .pic2{background:url(../imgs/img2.jpg) no-repeat center center;background-size:cover;width:100%}
+.slider .carousel .carousel-inner .overlay{background-color:#ffc0cb73;height:100%;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:left;-ms-flex-pack:left;justify-content:left;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.slider .carousel .carousel-inner .overlay .content{padding-top:150px;padding-bottom:150px}
+.slider .carousel .carousel-inner .overlay .content p{margin-bottom:0;font-size:20px}
+.slider .carousel .carousel-inner .overlay .content .lead{font-size:70px;line-height:80px;margin:15px 0}
+.slider .carousel .carousel-inner .overlay .content .btn{color:#000;background-color:#fff;width:125px;height:45px}
+.slider .carousel-control-next,.slider .carousel-control-prev{width:10%}
+.Fetures{padding-top:65px;padding-bottom:40px}
+.Fetures h1 span{color:#e8b8b8}
+.Fetures .lead{opacity:.5;font-size:20px;margin-bottom:25px}
+.Fetures .content{margin-top:10px;text-align:left}
+.Fetures .content .img img{width:100%}
+.Fetures .content .lead{opacity:1;font-size:25px;margin-top:7px;margin-bottom:5px}
+.Fetures .content .con{opacity:.5}
+.Services{padding-top:30px;background:url(../imgs/img6.jpg) no-repeat center center;background-size:cover;-webkit-clip-path:polygon(0 0,100% 0,100% 71%,50% 100%,0 71%);clip-path:polygon(0 0,100% 0,100% 71%,50% 100%,0 71%)}
+.Services .content{padding-top:50px;padding-bottom:50px}
+.Services .content .lead{color:#fff;font-size:35px;margin-bottom:50px}
+.Services .content button{width:170px;height:43px;border:2px solid #fff;border-radius:0;background-color:transparent;padding-bottom:10px;position:relative}
+.Services .content .color{position:absolute;top:0;left:0;height:100%;width:0;background-color:#fff}
+.Services .content .word{background-color:transparent;color:#fff;position:relative;z-index:2}
+.about{padding-top:70px;padding-bottom:50px}
+.about .img{margin-bottom:20px}
+.about .img img{width:80%}
+.about .content p{font-size:30px}
+.about .content p span{color:#e8b8b8}
+.about .content .con{font-size:15px;opacity:.5;margin-bottom:20px}
+.about .content form .form{overflow:hidden;display:inline}
+.about .content form .form input{width:45%;height:40px;padding:10px;margin-right:20px;outline:0}
+.about .content form .form p{text-align:center;margin-top:15px;margin-bottom:0;font-size:10px}
+.about .content form .form button{text-align:center;width:100%;height:40px;border:2px solid #6c757d;border-radius:0;background-color:transparent;padding-bottom:10px;position:relative}
+.about .content form .form .color{position:absolute;top:0;left:0;height:100%;width:0;background-color:#6c757d}
+.about .content form .form .word{background-color:transparent;color:#6c757d;position:relative;z-index:2}
+.Gift{background-color:#343a40;padding-top:100px;padding-bottom:100px;color:#fff}
+.Gift .content{margin-top:80px}
+.Gift .content p{width:75%;margin-bottom:25px;opacity:.5}
+.Gift .content button{text-align:center;width:25%;height:40px;border:2px solid #fff;border-radius:0;background-color:transparent;padding-bottom:10px;position:relative}
+.Gift .content .color{position:absolute;top:0;left:0;height:100%;width:0;background-color:#fff}
+.Gift .content .word{background-color:transparent;color:#fff;position:relative;z-index:2}
+.Gift .img img{width:100%}
+body{position:relative;height:100%}
+.testmonial{padding:100px 0}
+.testmonial .content{border:4px solid #fff;padding-top:30px;width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.testmonial .content .info{padding:20px;width:58%;height:147px;background-color:#eee;position:relative}
+.testmonial .content .info::after{content:"";position:absolute;border-width:20px;border-style:solid;border-color:#eee transparent transparent transparent;top:145px;left:50%;margin-left:-20px}
+.testmonial .content .info i{color:#ddd;width:85px;height:85px;border:1px solid #ddd;border-radius:50%;line-height:85px;position:absolute;background-color:#fff;bottom:108px;left:50%;margin-left:-42.5px}
+.testmonial .content .info .word{padding-top:35px}
+.testmonial .swiper-slide{height:290px}
+.Discount{width:100%;background-color:#e8b8b8;padding-top:28px;border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0}
+.footer{background-color:#212121;padding-top:50px;padding-bottom:50px;color:#fff}
+.footer .container h4{margin-bottom:15px;opacity:1}
+.footer .container ul li{margin-bottom:10px;opacity:.5}
+.footer .container p{opacity:.5;font-size:12px}
+.footer .container button{text-align:center;width:45%;height:40px;border:2px solid #fff;border-radius:0;background-color:transparent;padding-bottom:10px;position:relative}
+.footer .container .color{position:absolute;top:0;left:0;height:100%;width:0;background-color:#fff}
+.footer .container .word{background-color:transparent;color:#fff;position:relative;z-index:2}
+@media (min-width:320px){
+.header .content{text-align:center!important}
+}
+@media (min-width:992px){
+.header .con1{text-align:left!important}
+.header .con2{text-align:right!important}
+}
+@media (min-width:320px){
+.slider .overlay .content{margin-left:10%}
+.slider .overlay .content .lead{font-size:35px!important;line-height:40px!important}
+}
+@media (min-width:992px){
+.slider .overlay .content{margin-left:10%!important}
+.slider .overlay .content .lead{font-size:70px!important;line-height:80px!important}
+}
+@media (min-width:1200px){
+.slider .overlay .content{margin-left:5%!important}
+}
+@media (min-width:320px){
+.Fetures .content{text-align:center}
+}
+@media (min-width:768px){
+.Fetures .content{text-align:left}
+}
+@media (min-width:320px){
+.about{text-align:center}
+.about .img img{width:100%}
+.about form .form{width:100%;margin-bottom:15px;display:block!important}
+.about form .form input{width:100%!important}
+.about form .form button{width:100%!important}
+}
+@media (min-width:992px){
+.about{text-align:left!important}
+.about .img img{width:80%}
+.about form .form{width:100%;margin-bottom:15px;display:block!important}
+.about form .form input{width:100%!important}
+.about form .form button{width:100%!important}
+}
+@media (min-width:320px){
+.Gift{text-align:center}
+.Gift .content{margin-top:0!important;margin-bottom:35px}
+.Gift .content p{width:100%}
+.Gift .content button{width:100%}
+@media (min-width:992px){
+.Gift{text-align:left!important}
+.Gift .content{margin-top:80px!important;margin-bottom:35px}
+.Gift .content p{width:80%}
+.Gift .content button{width:25%}
+}
+}
+@media (min-width:320px){
+.testmonial .content .info{width:100%!important;font-size:11px}
+}
+@media (min-width:992px){
+.testmonial .content .info{width:80%!important;font-size:17px}
+}
